@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^ticketsea.com$
+RewriteRule ^(.*) https://www.ticketsea.com/$1  [QSA,L,R=301]
